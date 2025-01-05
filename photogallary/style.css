@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#gallary {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-template-columns: repeat(3, 200px);
+  gap: 10px;
+}
+
+#gallary img {
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+
+#modal {
+  display: none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  align-items: center;
+  justify-content: center;
+}
+
+#modalImage {
+  width: 80%;
+  height: 80%;
+  margin: auto;
+}
+
+#close-btn {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  color: white;
+  cursor: pointer;
+}
