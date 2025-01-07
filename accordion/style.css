@@ -1,0 +1,29 @@
+body {
+  font-family: sans-serif;
+  transition: all 0.5s ease-in-out;
+}
+
+.wrapper {
+}
+
+.accordian {
+  padding: 10px;
+  margin: 20px;
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+}
+
+.show {
+  display: block !important;
+}
+
+.accordian-header {
+  cursor: pointer;
+}
+
+.accordian-content {
+  display: none;
+  margin-top: 10px;
+  padding-top: 20px;
+  border-top: 1px solid #d9d9d9;
+}
